@@ -1,0 +1,72 @@
+*{
+    font-family: "Opens Sans",sans-serif;
+    text-decoration: none;
+}
+.header-advanced{
+    display: flex;
+    gap: 860px;
+}
+
+.header-advanced .header-links{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.header-advanced .header-links a{
+    color: black;
+}
+.appbar{
+    margin: 20px;
+}
+
+.appbar label{
+    font-size: 2rem;
+    color: red;
+    padding-top: 20px;
+}
+
+.advanced-search-container{
+    margin: 20px;
+}
+
+
+.advanced-search-container form .description{
+    display: flex;
+    gap: 700px;
+    font-size: 1.5rem;
+}
+
+.advanced-search-container .form-group{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 20px;
+    margin-top: 30px;
+}
+
+.form-group input{
+    width: 400px;
+    margin-left: 120px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group .clarification{
+    font-size: 12px;
+}
+
+.form-group .clarification span{
+    font-family: monospace;
+}
+.advanced-search-container .right-align button{
+    background-color: rgb(32, 118, 248);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-left: 900px;
+}
+.advanced-search-container .right-align button a{
+    color: white;
+}

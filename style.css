@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+}
+
+.container .header{
+    display: flex;
+    gap: 20px;
+    margin-left: 79%;
+    padding-top: 20px;
+}
+
+.header p a{
+    color: black;
+}
+
+.main-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 170px;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.search svg{
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
+
+.search input{
+    outline: none;
+    width: 500px;
+    padding: 12px 39px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.main-part .buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+    padding: 15px 19px;
+    border: none;
+    border-radius: 7px;
+}
+.buttons button:hover{
+    border: 1px solid black;
+}
